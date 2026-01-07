@@ -6,6 +6,7 @@ function UsernameForm() {
   };
   return (
     <div>
+      <label htmlFor="username">Username</label>
       <input
         type="text"
         value={username}
